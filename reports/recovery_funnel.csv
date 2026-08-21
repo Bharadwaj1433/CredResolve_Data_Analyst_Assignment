@@ -1,0 +1,7 @@
+stage,accounts,conversion_from_accounts_pct
+accounts,30000,100.0
+accounts_with_calls,28408,94.69333333333333
+accounts_with_answered_calls,13535,45.11666666666667
+accounts_with_ptp,13532,45.10666666666667
+accounts_with_kept_ptp,4164,13.88
+accounts_with_successful_payment,13284,44.28

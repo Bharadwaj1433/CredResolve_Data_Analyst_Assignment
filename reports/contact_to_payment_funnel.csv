@@ -1,0 +1,7 @@
+metric,value
+accounts,30000.0
+accounts_with_answered_call,13535.0
+accounts_with_successful_payment,13284.0
+answered_accounts_with_payment,6050.0
+answered_to_payment_rate_pct,44.69892870336166
+paid_accounts_without_answered_call,7234.0

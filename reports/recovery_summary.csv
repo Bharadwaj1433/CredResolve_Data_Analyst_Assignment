@@ -1,0 +1,14 @@
+metric,value
+accounts,30000.0
+total_outstanding_amount,10489035343.0
+successful_payment_amount,1315583964.6399999
+recovery_rate_pct,12.54246860287274
+successful_payments,17534.0
+total_payment_records,25000.0
+calls,90079.0
+answered_calls,17896.0
+ptps,18000.0
+ptps_kept,4489.0
+field_visits,25000.0
+sms_events,45000.0
+whatsapp_events,60000.0
