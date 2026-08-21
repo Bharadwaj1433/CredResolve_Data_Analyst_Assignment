@@ -1,0 +1,12 @@
+dataset,non_null_borrower_ids,orphan_borrower_ids,orphan_pct
+accounts,29545,2458,8.32
+calls,91350,7451,8.16
+call_attempts,120000,9778,8.15
+call_dispositions,35000,2737,7.82
+whatsapp_events,60600,4925,8.13
+sms_events,45000,3781,8.4
+field_visits,25000,2095,8.38
+promises_to_pay,18000,1444,8.02
+payments,25500,2078,8.15
+complaints,8000,693,8.66
+account_status_history,60000,5013,8.36

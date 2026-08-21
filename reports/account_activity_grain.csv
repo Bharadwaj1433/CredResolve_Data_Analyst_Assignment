@@ -1,0 +1,11 @@
+dataset,rows,unique_accounts,rows_per_account,missing_account_id
+calls,91350,28408,3.216,0
+call_attempts,120000,29451,4.075,0
+call_dispositions,35000,20603,1.699,0
+payments,25500,16934,1.506,0
+promises_to_pay,18000,13532,1.33,0
+complaints,8000,7034,1.137,0
+field_visits,25000,16908,1.479,0
+sms_events,45000,23207,1.939,0
+whatsapp_events,60600,25924,2.338,0
+account_status_history,60000,25999,2.308,0

@@ -1,0 +1,11 @@
+dataset,timezone,row_count
+accounts,UTC,10096
+accounts,Asia/Kolkata,9981
+accounts,Asia/Dubai,9923
+calls,Asia/Kolkata,30485
+calls,Asia/Dubai,30464
+calls,UTC,30401
+agent_sessions,Asia/Kolkata,7506
+agent_sessions,UTC,7494
+vendor_telephony,UTC,8
+vendor_telephony,Asia/Kolkata,7
