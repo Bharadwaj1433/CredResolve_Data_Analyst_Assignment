@@ -1,0 +1,5 @@
+payment_status,payment_records,unique_payment_ids,payment_amount,successful_records,valid_account_records
+FAILED,3677,3677,278418565.97,0,3677
+PENDING,2535,2535,190223176.37,0,2535
+REVERSED,1254,1254,94666565.91,0,1254
+SUCCESS,17534,17534,1315583964.64,17534,17534

@@ -1,0 +1,2 @@
+recommended_investment,investment_amount,priority_channel,observed_best_channel_success_rate_pct,answered_accounts,unanswered_accounts,observed_answered_vs_unanswered_payment_difference_pct_points,base_assumed_incremental_payment_rate,break_even_incremental_accounts,break_even_incremental_rate_pct,decision,confidence
+Targeted contactability and collections optimization,100000000,WHATSAPP,49.865,13535,16465,0.7633076890889545,0.0076,1009.7417084005787,6.1326553805076145,Proceed only as a controlled pilot with measurable holdout,Moderate-to-low

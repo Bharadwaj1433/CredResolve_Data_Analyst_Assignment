@@ -1,0 +1,5 @@
+metric,value,numerator,denominator,interpretation
+portfolio_recovery_rate,12.54246860287274,1315583964.6399999,10489035343.0,Portfolio-level observed rate only
+recovery_per_account,43852.79882133333,1315583964.6399999,30000.0,Descriptive recovery efficiency
+recovery_per_successful_payment,75030.4530991217,1315583964.6399999,17534.0,Average successful payment
+answered_account_rate,45.11666666666667,13535.0,30000.0,Portfolio contact coverage

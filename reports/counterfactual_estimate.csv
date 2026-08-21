@@ -1,0 +1,2 @@
+treatment_definition,control_definition,treatment_accounts,control_accounts,treatment_payment_rate_pct,control_payment_rate_pct,observed_payment_rate_difference_pct_points,matched_strata,interpretation
+Account with at least one answered call,Account without an answered call,13535,16465,44.69892870336166,43.935621014272705,0.7633076890889541,400,Observational comparison only

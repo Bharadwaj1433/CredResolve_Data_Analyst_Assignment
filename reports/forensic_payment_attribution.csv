@@ -1,0 +1,5 @@
+check,value,interpretation
+successful_payment_records,17534,Successful payment records available for attribution analysis
+successful_payment_accounts,13284,Accounts receiving successful payments
+missing_payment_reference_successful,254,Successful payments without payment reference
+unresolved_borrower_successful,1453,Successful payments with unresolved borrower relationship

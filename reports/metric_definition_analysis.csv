@@ -1,0 +1,9 @@
+metric,numerator,denominator,available,current_measurement,limitation
+recovery_rate,successful payment amount,eligible outstanding amount,PARTIAL,Available at portfolio level,Historical monthly eligible outstanding balance is unavailable
+contact_rate,accounts with answered calls,accounts attempted,YES,Can be calculated from calls,Answered-call status depends on operational call-status semantics
+RPC,accounts with right-party contact,accounts contacted,NO,No validated RPC definition exists in current analysis,Requires reliable right-party-contact classification
+PTP_rate,accounts with PTP,accounts contacted or eligible accounts,PARTIAL,PTP records are available,Business denominator must be explicitly defined
+PTP_kept_rate,kept PTPs,PTPs,PARTIAL,PTP records exist,Kept-status semantics require validated disposition/payment linkage
+recovery_per_account,successful payment amount,accounts,YES,Can be calculated,Not equivalent to recovery rate
+recovery_per_call,successful payment amount,calls,YES,Can be calculated,Does not prove call causality
+recovery_per_answered_call,successful payment amount,answered calls,YES,Can be calculated,Does not establish causal attribution

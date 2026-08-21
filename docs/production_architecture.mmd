@@ -1,0 +1,39 @@
+﻿flowchart LR
+
+    A["DATA SOURCES<br/><br/>Accounts<br/>Borrowers<br/>Payments<br/>Calls<br/>Campaigns<br/>Agents / Vendors<br/>Collection Events"]
+
+    B["ACQUIRE<br/><br/>Data Ingestion<br/>Batch Loads<br/>Incremental Loads"]
+
+    C["MANAGE<br/><br/>Raw / Landing<br/>Staging<br/>Quality Gate<br/>Clean Layer<br/>Golden Layer"]
+
+    D["ANALYSE & VISUALISE<br/><br/>Feature Layer<br/>Governed Metrics<br/>Analytical Investigation<br/>Executive Dashboard<br/>Executive Report"]
+
+    E["BUSINESS DECISION<br/><br/>Key Findings<br/>Recommendations<br/>₹10 Cr Investment Decision"]
+
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+
+    Q["CROSS-CUTTING PRODUCTION CONTROLS<br/><br/>Data Quality   •   Governance & Lineage   •   Monitoring   •   Orchestration"]
+
+    Q -.-> B
+    Q -.-> C
+    Q -.-> D
+
+    classDef source fill:#EAF2F8,stroke:#2F5597,stroke-width:2px,color:#17365D
+    classDef acquire fill:#FFF2CC,stroke:#BF9000,stroke-width:2px,color:#7F6000
+    classDef manage fill:#E2F0D9,stroke:#548235,stroke-width:2px,color:#385723
+    classDef analyse fill:#EDE7F6,stroke:#674EA7,stroke-width:2px,color:#403152
+    classDef decision fill:#D9EAD3,stroke:#38761D,stroke-width:2px,color:#274E13
+    classDef control fill:#F2F2F2,stroke:#666666,stroke-width:1.5px,color:#333333
+
+    class A source
+    class B acquire
+    class C manage
+    class D analyse
+    class E decision
+    class Q control
+
+    linkStyle 0,1,2,3 stroke:#666666,stroke-width:2px
+    linkStyle 4,5,6 stroke:#999999,stroke-width:1.5px,stroke-dasharray:5 5

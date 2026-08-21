@@ -23,3 +23,5 @@ reports/call_duplicate_groups.csv
 reports/borrower_identity_variability.csv
 reports/borrower_exact_duplicates.csv
 reports/call_non_exact_duplicates.csv
+reports/account_recovery_profile.csv
+reports/driver_agent_performance.csv
