@@ -1,0 +1,29 @@
+dataset,column,dtype,non_null,nulls,sample_value
+account_status_history,event_at,str,60000,0,2026-07-03 04:28:38
+account_status_history,recorded_at,str,60000,0,2026-07-03 00:41:54
+accounts,opened_at,str,30000,0,2025-11-11 04:37:00
+accounts,timezone,str,30000,0,Asia/Dubai
+agent_sessions,login_at,str,15000,0,2026-08-06 13:33:27
+agent_sessions,timezone,str,15000,0,Asia/Kolkata
+agent_sessions,logout_at,str,15000,0,2026-08-06 18:41:13
+agents,joined_at,str,30000,0,2025-06-19 20:30:53
+agents,updated_at,str,30000,0,2025-12-11 03:40:22
+borrowers,created_at,str,30600,0,2025-09-25 08:02:29
+borrowers,updated_at,str,30600,0,2026-07-25 22:25:48
+call_attempts,event_at,str,120000,0,2026-03-10 21:31:13
+call_dispositions,event_at,str,35000,0,2026-03-07 17:30:48
+calls,event_at,str,91350,0,2026-07-15 15:36:22
+calls,timezone,str,91350,0,Asia/Dubai
+campaigns,start_at,str,120,0,2026-02-17 06:56:01
+campaigns,end_at,str,120,0,2026-04-24 06:56:01
+complaints,event_at,str,8000,0,2026-04-29 16:34:08
+complaints,resolution_at,str,8000,0,2026-05-12 16:34:08
+daily_targeting,target_date,str,45000,0,2026-04-22
+field_visits,event_at,str,25000,0,2026-01-25 01:15:48
+field_visits,scheduled_at,str,24750,250,2026-01-24 05:49:28
+payments,event_at,str,25500,0,2026-02-27 01:28:12
+promises_to_pay,event_at,str,18000,0,2026-04-18 21:11:02
+promises_to_pay,promised_date,str,18000,0,2026-05-17 21:11:02
+sms_events,event_at,str,45000,0,2026-04-24 20:57:06
+vendor_telephony,timezone,str,15,0,Asia/Kolkata
+whatsapp_events,event_at,str,60600,0,2026-02-27 17:49:38
