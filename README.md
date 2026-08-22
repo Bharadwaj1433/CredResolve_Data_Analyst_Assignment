@@ -435,12 +435,6 @@ The executed notebook contains the generated analytical outputs and provides a r
 ```text
 CredResolve_Data_Analyst/
 │
-├── data/
-│   ├── raw/
-│   ├── staging/
-│   ├── clean/
-│   ├── cleaned/
-│   └── golden/
 │
 ├── docs/
 │   ├── production_architecture.md
@@ -454,6 +448,7 @@ CredResolve_Data_Analyst/
 │   ├── executive_dashboard.pdf
 │   ├── executive_memo.pdf
 │   ├── production_architecture.pdf
+│   ├── final_report.pdf
 │   ├── data_quality_report.md
 │   ├── golden_layer_decisions.md
 │   ├── recovery_findings.md
@@ -467,26 +462,42 @@ CredResolve_Data_Analyst/
 │   └── credresolve_analysis.sql
 │
 ├── src/
-│   ├── dataset_inventory.py
-│   ├── duplicate_profile.py
-│   ├── cleaning_pipeline.py
-│   ├── final_cleaned_layer_validation.py
+│   ├── account_borrower_identity_analysis.py
+│   ├── account_borrower_relationship_analysis.py
+│   ├── add_borrower_quality_flags.py
+│   ├── add_call_quality_flags.py
+│   ├── add_missing_identifier_flags.py
+│   ├── agent_identity_analysis.py
+│   ├── architecture_document.py
+│   ├── borrower_identity_analysis.py
+│   ├── borrower_identity_conflict_summary.py
+│   ├── borrower_identity_resolution.py
+│   ├── build_analysis_notebook.py
 │   ├── build_golden_layer.py
-│   ├── recovery_analysis.py
-│   ├── metric_definition_analysis.py
-│   ├── monthly_performance_analysis.py
-│   ├── performance_change_analysis.py
-│   ├── driver_analysis.py
-│   ├── statistical_investigation.py
-│   ├── forensic_analysis.py
+│   ├── clean_borrowers.py
+│   ├── clean_calls.py
+│   ├── clean_payments.py
+│   ├── cleaning_pipeline.py
 │   ├── counterfactual_analysis.py
-│   ├── improvement_verification.py
-│   ├── investment_analysis.py
+│   ├── deduplicate_exact_events.py
+│   ├── driver_analysis.py
 │   ├── executive_dashboard.py
 │   ├── executive_memo.py
-│   └── architecture_document.py
-│
-├── tests/
+│   ├── final_cleaned_layer_validation.py
+│   ├── final_recovery_analysis.py
+│   ├── forensic_analysis.py
+│   ├── improvement_verification.py
+│   ├── investment_analysis.py
+│   ├── metric_definition_analysis.py
+│   ├── monthly_performance_analysis.py
+│   ├── payment_attribution_analysis.py
+│   ├── performance_change_analysis.py
+│   ├── recovery_analysis.py
+│   ├── recovery_funnel_analysis.py
+│   ├── statistical_investigation.py
+│   ├── update_cleaning_decisions.py
+│   ├── validate_cleaned_layer.py
+│   └── validate_whatsapp_clean.py
 │
 ├── .gitattributes
 ├── .gitignore
