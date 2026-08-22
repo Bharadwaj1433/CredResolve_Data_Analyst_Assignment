@@ -61,3 +61,25 @@ reports/whatsapp_duplicate_analysis.csv
 # Local-only detailed analysis artifacts
 reports/account_activity_grain.csv
 reports/driver_agent_performance.csv
+reports/counterfactual_matched_comparison.csv
+reports/counterfactual_treatment_control.csv
+reports/driver_agent_tenure.csv
+reports/driver_attempt_frequency.csv
+reports/driver_borrower_quality.csv
+reports/driver_calling_time.csv
+reports/driver_campaign_performance.csv
+reports/driver_channel_performance.csv
+reports/driver_dpd.csv
+reports/driver_loan_type.csv
+reports/driver_risk.csv
+reports/driver_status.csv
+reports/driver_vendor_performance.csv
+reports/forensic_attempt_frequency.csv
+reports/forensic_calling_time.csv
+reports/forensic_payment_attribution.csv
+reports/forensic_vendor_performance.csv
+reports/metric_definition_analysis.csv
+reports/performance_change_events.csv
+reports/performance_first_vs_last.csv
+reports/performance_rolling_trends.csv
+reports/statistical_monthly_summary.csv
