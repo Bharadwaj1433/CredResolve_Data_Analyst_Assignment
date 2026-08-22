@@ -1,5 +1,0 @@
-dataset,column,dtype,non_null,nulls,unique_values,minimum,maximum,mean,zero_values,negative_values
-accounts,principal_amount,float64,30000,0,29996,10055.11,799968.38,403455.5217846667,0,0
-accounts,outstanding_amount,float64,30000,0,29994,1002.67,699963.89,349634.51143333333,0,0
-payments,amount,float64,25500,0,24979,103.68,149993.55,75186.61243725491,0,0
-promises_to_pay,promised_amount,float64,18000,0,17983,511.99,99997.28,50233.838777777775,0,0
