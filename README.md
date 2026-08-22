@@ -91,11 +91,6 @@ The project evaluates multiple potential performance drivers:
 | [Driver Findings](reports/driver_analysis_findings.md) | Interpretation and limitations |
 | [Campaign Performance](reports/campaign_performance.csv) | Campaign-level contact performance |
 | [Campaign Recovery Performance](reports/campaign_recovery_performance.csv) | Campaign-level recovery outcomes |
-| [Channel Performance](reports/driver_channel_performance.csv) | Channel-level performance |
-| [Agent Performance](reports/driver_agent_performance.csv) | Agent-level operational performance |
-| [Vendor Performance](reports/driver_vendor_performance.csv) | Vendor-level performance |
-| [Calling Time](reports/driver_calling_time.csv) | Performance by observed call hour |
-| [Attempt Frequency](reports/driver_attempt_frequency.csv) | Payment conversion by attempt band |
 
 Driver differences are treated as **descriptive evidence and hypotheses for controlled testing**, not automatically as causal effects.
 
